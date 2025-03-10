@@ -1,0 +1,16 @@
+{
+    "name": "yad2-analyzer",
+    "version": "1.0.0",
+    "description": "Scraper and analyzer for Yad2 real estate listings",
+    "main": "node_scraper.js",
+    "scripts": {
+        "scrape": "node node_scraper.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^22.8.2",
+        "csv-writer": "^1.6.0"
+    }
+}
